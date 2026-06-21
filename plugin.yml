@@ -1,0 +1,11 @@
+name: WurstBlocker
+version: 1.0.0
+main: com.wurstblocker.plugin.WurstBlockerPlugin
+api-version: 1.13
+description: Blocks players using the Wurst hacked client from joining the server.
+author: YourName
+
+permissions:
+  wurstblocker.alert:
+    description: Receive alerts when a Wurst client is detected.
+    default: op

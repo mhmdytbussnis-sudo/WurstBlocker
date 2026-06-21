@@ -1,0 +1,14 @@
+# WurstBlocker Configuration
+
+# Message shown to the player when they are kicked
+kick-message: "&cYou are using a hacked client (Wurst) which is not allowed on this server.\n&ePlease use a clean Minecraft client to join."
+
+# Message sent to admins and console when a Wurst client is detected
+# Placeholders: {player} = player name, {brand} = detected client brand
+alert-message: "&e[WurstBlocker] &c{player} &ewas kicked for using Wurst client. (Brand: &f{brand}&e)"
+
+# Send alerts to online players with the 'wurstblocker.alert' permission
+alert-admins: true
+
+# Log detections to the server console
+log-to-console: true
